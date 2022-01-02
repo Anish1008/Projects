@@ -46,6 +46,7 @@ height:70px;
 display: flex;
 align-items: center;
 padding: 0px 50px;
+overflow: hidden;
 `
 
 const Logo = styled.img`

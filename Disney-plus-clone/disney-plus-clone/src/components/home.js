@@ -1,9 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
+import ImageSlider from './imageslider'
+import Viewer from './viewer'
+
 function home() {
     return (
         <Container>
-            Main
+            <ImageSlider/>
+            <Viewer/>
         </Container>
     )
 }
@@ -19,5 +23,5 @@ const Container= styled.main`
         background-size:cover;
         background-position:center center;
         background-attachment: fixed;
-
+    overflow:hidden;
 `
