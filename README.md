@@ -4,7 +4,8 @@
 - CLONE IT
 - RUN THE FOLLOWING
 ```
-cd laurel
+cd "foldername"
+cd "filename"
 npm install
 ```
 - CREATE A FIREBASE PROJECT AND SET UP HOSTING
