@@ -47,6 +47,7 @@ a{
     text-transform:uppercase;
     font-weight: 700;
     cursor:pointer;
+    font-size:13px;
 }
 `
 const RNavbar= styled.div`
@@ -56,6 +57,7 @@ height:60px;
 // border: 2px solid green;
 a{
     cursor:pointer;
+    font-size:13px;
     text-transform: uppercase;
     padding: 0 12px;
     font-weight: 700;
