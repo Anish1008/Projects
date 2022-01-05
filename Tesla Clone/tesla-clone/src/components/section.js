@@ -61,7 +61,18 @@ const Downarrow = styled.img`
     display:inline-block;
     position:fixed;
     bottom:0px;
-    left:50vw;
+    left:47vw;
+    animation-name:"bounce";
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    @keyframes bounce{
+        0%,34%,68%,100%{
+            transform:translateY(0%);
+        }
+        17%,51%{
+            transform:translateY(-20%);
+        }
+    }
 `
 const Left = styled.a`
 color:white;
