@@ -26,9 +26,6 @@ const Container = styled.div`
     height:100vh;
     width:100vw;
     // border: 2px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
 
     `
     
@@ -37,14 +34,12 @@ const Container = styled.div`
         font-size:40px;
         // text-transform:uppercase;
         text-align: center;
-        top:50px;
-        transform: translateY(-20px);
+        padding-top:20vh;
         opacity:1;
         font-weight:600;
     }
     p{
         text-align: center;
-        transform: translateY(-10px);
         a{
             cursor: pointer;
             &:hover{
@@ -52,13 +47,14 @@ const Container = styled.div`
             }
         }
     }
-`
-
-const Buttons = styled.div`
-transform:translateY(500%);
-display:flex;
-justify-content:center;
-height:50px;
+    `
+    
+    const Buttons = styled.div`
+    display:flex;
+    justify-content:center;
+    height:50px;
+    // width:100px;
+    margin-top: 50vh;
 `
 const Downarrow = styled.img`
     height:60px;
@@ -69,14 +65,34 @@ const Downarrow = styled.img`
 `
 const Left = styled.a`
 color:white;
-display:block;
+background-color: rgba(23, 26, 32, 0.8);
+opacity:0.85;
+cursor:pointer;
+display:flex;
+align-items:center;
+justify-content:center;
 font-weight:200;
-border:2px solid black;
-height:20px;
-width:40px;
-
+// border:2px solid black;
+height:40px;
+width:256px;
+text-align:center;
+border-radius:100px;
+margin-right:26px;
 `
 const Right = styled.a`
+color:black;
+background-color: #ffffffb0;
+opacity:0.85;
+cursor:pointer;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:200;
+// border:2px solid black;
+height:40px;
+width:256px;
+text-align:center;
+border-radius:100px;
 
 
 `
