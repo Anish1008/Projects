@@ -34,6 +34,7 @@ justify-content: space-between;
 height: 60px;
 width:100vw;
 // border: 2px solid red;
+z-index:10;
 `
 
 const Logo = styled.img`

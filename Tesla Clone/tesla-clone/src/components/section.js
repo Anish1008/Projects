@@ -1,19 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
-import Fade from 'react-reveal/fade'
+import Fade from 'react-reveal/Fade'
 function section({title,description, image}) {
     // console.log({image})
     return (
         <>
         <Container bgImage={image}>
-            <Fade>
+            <Fade bottom>
 
             <Heading>
                 <h1>{title}</h1>
                 <p>{description}</p>
             </Heading>
             </Fade>
-            <Fade>
+            <Fade bottom>
 
             <Buttons>
                 <Left>Custom Order</Left>
