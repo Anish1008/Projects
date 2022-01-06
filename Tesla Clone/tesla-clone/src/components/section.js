@@ -1,18 +1,28 @@
 import React from 'react'
 import styled from 'styled-components'
-function section() {
+import Fade from 'react-reveal/fade'
+function section({title,description, image}) {
+    // console.log({image})
     return (
-        <Container>
+        <>
+        <Container bgImage={image}>
+            <Fade>
+
             <Heading>
-                <h1>Model S</h1>
-                <p>Order online for <a>Touchless delivery</a></p>
+                <h1>{title}</h1>
+                <p>{description}</p>
             </Heading>
+            </Fade>
+            <Fade>
+
             <Buttons>
                 <Left>Custom Order</Left>
                 <Right>Existing Inventory</Right>
             </Buttons>
+            </Fade>
             <Downarrow src='/images/down-arrow.svg'/>
         </Container>
+        </>
     )
 }
 
@@ -20,13 +30,13 @@ export default section
 
 
 const Container = styled.div`
-    background-image: url("/images/model-s.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:100vh;
-    width:100vw;
-    // border: 2px solid red;
-
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center;
+height:100vh;
+width:100vw;
+// border: 2px solid red;
+background-image: ${props => `url("/images/${props.bgImage}")`}
     `
     
     const Heading = styled.div`
@@ -37,6 +47,7 @@ const Container = styled.div`
         padding-top:20vh;
         opacity:1;
         font-weight:600;
+        letter-spacing:1px;
     }
     p{
         text-align: center;
