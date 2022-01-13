@@ -20,23 +20,95 @@
     display: flex;
     align-items: center;
     color: white;
-    border: 1px solid blue;
+    
 }
-img{
+.logo img{
     height: 48px;
     filter: invert(1);
+}
+.logo a span{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.logo a{
+    display: flex;
+    text-decoration: none;
 }
 .navigation{
     display: flex;
     align-items: center;
-    border: 1px solid red;
+    
     margin-left: 20vw;
     justify-content: space-between;
     width: 40vw;
 }
-a{
+.navigation a{
     color: white; 
     font-size: 30px;
     text-decoration: none;
     padding: 13px 20px;
+    transition: all 0.4s ease;
+}
+.navigation a:hover{
+    color: black;
+}
+.section{
+    color: white;
+    border: 1px solid red;
+    font-size: 50px;
+    font-family: 'ZCOOL QingKe HuangYou';
+    height: 60vh;
+    background-image: url(/static/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section+h2{
+    margin: 10px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.mission{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.card{
+    border: 1px solid black;
+    width: 30%;
+    height: 210px;
+    border-radius: 10px;
+}
+.cardbox{
+    
+    display: flex;
+    height: 187px;
+}
+
+.cardcontent{
+    
+    display: flex;
+    align-items: center;
+}
+.cardimg img{
+    height: 185px;
+
+}
+.sponsors{
+    height: 300px;
+    background-color: #fbd6d6c7;
+    margin-top: 20px;
+
+}
+.sponsors h2{
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    padding: 10px 0;
 }
