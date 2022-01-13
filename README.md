@@ -1,5 +1,7 @@
 # Projects
 
+# Ignore the other contributor I merged his small pull request by mistake because I did not know it.
+
 - FORK THIS PROJECT
 - CLONE IT
 - RUN THE FOLLOWING
