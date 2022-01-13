@@ -1,4 +1,4 @@
-doctypye
+doctype html 
 html 
     head 
         title Welcome to Spark Academy
@@ -13,7 +13,8 @@ html
             div.navigation 
                 a(href="/") Home
                 a(href="/") About
-                a(href="/") Services
+                a(href="/services") Services
+                a(href="/") Class Info
                 a(href="/") Contact
             .navlast 
         .section 
@@ -45,3 +46,10 @@ html
                         p We have good mentors available all time during working hours
         .sponsors 
             h2 Our Sponsors
+            .sponsorimg 
+                img(src= "/static/img/logo1.png", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/logo2.png", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/logo3.png", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/logo4.png", alt= "Sponsor Image", class= "spImage")
+        footer#footer
+            | Copyright © 2022 SparkAcademy.com | All Rights Reserved

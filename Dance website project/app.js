@@ -15,7 +15,9 @@ app.get("/", (req,res)=>{
     res.status(200).render("index");
 });
 
-
+app.get("/services",(req,res)=>{
+    res.status(200).render("services")
+})
 app.listen(port, ()=>{
     console.log(`Listening on localhost at port ${port}`)
 });
