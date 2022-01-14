@@ -1,10 +1,38 @@
-doctype html 
-html 
-    head 
-        title Services 
-        style 
-            include ../static/services.css
-    body 
+extends base.pug
+block style 
+    style 
+        include ../static/services.css
+block content 
+    .services 
+        h1 Our Services
         .section 
             .sectionimg 
-                
+                img(src="/static/img/jazzsteps.jpg", alt="")
+            .sectioncontent 
+                h2 JAZZ 
+                p 
+                    | Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque, voluptates enim maxime voluptas nisi explicabo quaerat necessitatibus eveniet ab ipsum tempore cum. Eligendi!
+        .section 
+            .sectionimg 
+                img(src="/static/img/folk.jpg", alt="")
+
+            .sectioncontent 
+                h2 Folk Dance
+                p 
+                    | Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque, voluptates enim maxime voluptas nisi explicabo quaerat necessitatibus eveniet ab ipsum tempore cum. Eligendi!
+        .section 
+            .sectionimg 
+                img(src="/static/img/contemporary.jpg", alt="")
+
+            .sectioncontent 
+                h2 Contemporary 
+                p 
+                    | Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque, voluptates enim maxime voluptas nisi explicabo quaerat necessitatibus eveniet ab ipsum tempore cum. Eligendi!
+        .section 
+            .sectionimg 
+                img(src="/static/img/Hiphop.jpg", alt="")
+
+            .sectioncontent 
+                h2 Hip-Hop
+                p 
+                    | Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque, voluptates enim maxime voluptas nisi explicabo quaerat necessitatibus eveniet ab ipsum tempore cum. Eligendi!

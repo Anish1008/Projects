@@ -8,53 +8,6 @@
 body{
     overflow-x: hidden;
 }
-.navbar{
-    display: flex;
-    height: 50px;
-    width: 100vw;
-    font-family: 'Yeon Sung' ;
-    background-color: #d43b3b;
-    position: fixed;
-    top: 0;
-    /* justify-content: space-between; */
-}
-.logo{
-    display: flex;
-    align-items: center;
-    color: white;
-    
-}
-.logo img{
-    height: 48px;
-    filter: invert(1);
-}
-.logo a span{
-    display: flex;
-    color: white;
-    align-items: center;
-}
-.logo a{
-    display: flex;
-    text-decoration: none;
-}
-.navigation{
-    display: flex;
-    align-items: center;
-    
-    margin-left: 20vw;
-    justify-content: space-between;
-    width: 48vw;
-}
-.navigation a{
-    color: white; 
-    font-size: 30px;
-    text-decoration: none;
-    padding: 13px 20px;
-    transition: all 0.4s ease;
-}
-.navigation a:hover{
-    color: black;
-}
 .section{
     color: white;
     font-size: 50px;
@@ -121,9 +74,4 @@ body{
 .sponsorimg img{
     height: 80px;
     margin: 20px;
-}
-#footer{
-    color: white;
-    background-color: black;
-    text-align: center;
 }

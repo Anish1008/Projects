@@ -1,0 +1,24 @@
+doctype html
+html
+    head
+        title= title
+        style 
+            include ../static/base.css
+        block style
+    body
+        nav.navbar 
+            div.logo 
+                a(href="/") 
+                    img(src="../static/img/logo.png", alt="Logo")
+                    span Spark
+            div.navigation 
+                a(href="/") Home
+                a(href="/") About
+                a(href="/services") Services
+                a(href="/") Class Info
+                a(href="/") Contact
+            .navlast 
+        block content
+        block foot
+            #footer
+                p Copyright © 2022 Spark Academy.com | All Rights Reserved

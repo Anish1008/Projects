@@ -1,55 +1,39 @@
-doctype html 
-html 
-    head 
-        title Welcome to Spark Academy
-        style 
-            include ../static/index.css
-    body 
-        nav.navbar 
-            div.logo 
-                a(href="/") 
-                    img(src="../static/img/logo.png", alt="Logo")
-                    span Spark
-            div.navigation 
-                a(href="/") Home
-                a(href="/") About
-                a(href="/services") Services
-                a(href="/") Class Info
-                a(href="/") Contact
-            .navlast 
-        .section 
-            h1 Welcome to Spark Academy 
-            p 
-            | Dance your heart out 
-        h2 Our mission
-        .mission 
-            .card 
-                h3 Dance Perfection
-                .cardbox 
-                    .cardimg 
-                        img(src="/static/img/1.png", alt="")
-                    .cardcontent 
-                        p This is the best dance academy of the world 
-            .card 
-                h3 Dance the way you like
-                .cardbox 
-                    .cardimg 
-                        img(src="/static/img/2.png", alt="")
-                    .cardcontent 
-                        p Pupil can learn their interested dance form 
-            .card 
-                h3 Expert mentors
-                .cardbox 
-                    .cardimg 
-                        img(src="/static/img/3.png", alt="")
-                    .cardcontent 
-                        p We have good mentors available all time during working hours
-        .sponsors 
-            h2 Our Sponsors
-            .sponsorimg 
-                img(src= "/static/img/logo1.png", alt= "Sponsor Image", class= "spImage")
-                img(src= "/static/img/logo2.png", alt= "Sponsor Image", class= "spImage")
-                img(src= "/static/img/logo3.png", alt= "Sponsor Image", class= "spImage")
-                img(src= "/static/img/logo4.png", alt= "Sponsor Image", class= "spImage")
-        footer#footer
-            | Copyright © 2022 SparkAcademy.com | All Rights Reserved
+extends base.pug
+block style 
+    style
+        include ../static/index.css
+block content  
+    .section 
+        h1 Welcome to Spark Academy 
+        p 
+        | Dance your heart out 
+    h2 Our mission
+    .mission 
+        .card 
+            h3 Dance Perfection
+            .cardbox 
+                .cardimg 
+                    img(src="/static/img/1.png", alt="")
+                .cardcontent 
+                    p This is the best dance academy of the world 
+        .card 
+            h3 Dance the way you like
+            .cardbox 
+                .cardimg 
+                    img(src="/static/img/2.png", alt="")
+                .cardcontent 
+                    p Pupil can learn their interested dance form 
+        .card 
+            h3 Expert mentors
+            .cardbox 
+                .cardimg 
+                    img(src="/static/img/3.png", alt="")
+                .cardcontent 
+                    p We have good mentors available all time during working hours
+    .sponsors 
+        h2 Our Sponsors
+        .sponsorimg 
+            img(src= "/static/img/logo1.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img/logo2.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img/logo3.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img/logo4.png", alt= "Sponsor Image", class= "spImage")

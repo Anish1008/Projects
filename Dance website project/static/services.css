@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #fbd6d6c7;
+}
+h1{
+    margin-top: 60px;
+    text-align: center;
+}
+.services
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    width: 95vw;
+    height: 232px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.sectionimg{
+    margin-left: 10px;
+}
+.sectionimg img{
+    height: 220px;
+    width: 430px;
+    border-radius: 10px 0px 10px 0px;
+}
+.sectioncontent{
+    height: 230px;
+    width: 62vw;
+    /* border: 1px solid red; */
+}
+.sectioncontent h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sectioncontent p{
+    height: 200px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+}
