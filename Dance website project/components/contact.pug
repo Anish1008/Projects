@@ -1,0 +1,14 @@
+extends base.pug
+block title 
+    title Contact Us
+block style 
+    style 
+        include ../static/contact.css
+block content 
+    h1 Contact Us
+    form(action= '/contact', method= 'post', class= 'myForm')
+        <input type="text"class= “name” name="name" placeholder="Enter your name..">
+        <input type="phone" class= “myInput” name="phone" placeholder="Enter the dance form you are interested in..">
+        <input type="email" class= “myInput” name="email" placeholder="Enter your email..">
+        <input type="text" name="firstname" placeholder="Your Phone number.."> 
+        <input type="submit" class="submit" placeholder="Submit">

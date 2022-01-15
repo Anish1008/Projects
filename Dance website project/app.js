@@ -18,6 +18,18 @@ app.get("/", (req,res)=>{
 app.get("/services",(req,res)=>{
     res.status(200).render("services")
 })
+app.get("/about",(req,res)=>{
+    res.status(200).render("about")
+})
+app.get("/classinfo",(req,res)=>{
+    res.status(200).render("classinfo")
+})
+app.get("/contact",(req,res)=>{
+    res.status(200).render("contact")
+})
+app.post("/contact",(req,res)=>{
+    res.status(200).render("contact")
+})
 app.listen(port, ()=>{
     console.log(`Listening on localhost at port ${port}`)
 });

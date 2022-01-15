@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/static/img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+.about{
+    height: 250px;
+    width: 85vw;
+    border: 1px solid black;
+    margin: 60px auto 10px auto;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.sparklogo img{
+    height: 220px;
+    border-radius: 50%;
+}
+.sparkcontent{
+    width: 70vw;
+    height: 266px;
+    margin-right: 10px;
+}
+h1{
+    text-align: center;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+.sparkcontent p{
+    width: 65vw;
+    height: 210px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 18px;
+}
+.founder{
+    height: 250px;
+    width: 85vw;
+    border: 1px solid black;
+    margin: 10px auto 10px auto;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.foundercontent{
+    width: 70vw;
+    height: 266px;
+    margin-right: 10px;
+    /* border: 1px solid red; */
+}
+.foundercontent p{
+    width: 65vw;
+    height: 216px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 18px;
+    /* border: 1px solid green; */
+}
+.founderpic img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.founderpic{
+    margin-right: 61px;
+}
+.founderpic span{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    /* border: 1px solid yellow; */
+}
+.founder+h1{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.teams{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 20px 0; */
+    background-color: white;
+    height: 250px;
+}
+.card{
+    width: 30%;
+    height: 220px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: #414141c7;
+    border-radius: 10px;
+}
+.cardimg{
+    margin-left: 10px;
+}
+.cardimg img{
+    height: 200px;
+    border-radius: 10px 0 10px 0;
+}
+.cardcontent{
+    margin: 0 10px;
+}
+.cardcontent p{
+    text-align: left;
+}
+h2{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 40px;
+}

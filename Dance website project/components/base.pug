@@ -1,7 +1,7 @@
 doctype html
 html
     head
-        title= title
+        block title
         style 
             include ../static/base.css
         block style
@@ -13,10 +13,10 @@ html
                     span Spark
             div.navigation 
                 a(href="/") Home
-                a(href="/") About
+                a(href="/about") About
                 a(href="/services") Services
-                a(href="/") Class Info
-                a(href="/") Contact
+                a(href="/classinfo") Class Info
+                a(href="/contact") Contact
             .navlast 
         block content
         block foot
