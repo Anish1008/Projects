@@ -20,9 +20,6 @@ function imageslider() {
             <Wrap>
                 <img src='/images/slider-badag.jpg'/>
             </Wrap>
-            <Wrap>
-                <img src='/images/slider-badging.jpg'/>
-            </Wrap>
         </Carousel>
         
     )
