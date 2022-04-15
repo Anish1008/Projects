@@ -9,6 +9,7 @@ function ProductComponents() {
   const dispatch = useDispatch()
   const fetchProducts=()=>{
     axios.get('https://fakestoreapi.com/products').then((res)=>{
+      console.log(res);
     let temp=res.data.map((pro)=>{
       return(pro)
     })
