@@ -1,0 +1,11 @@
+{
+    "params":
+    {
+        "local_server":"True",
+        "local_uri":"mysql://root:@localhost/DeCode",
+        "prod_uri":"mysql://root:@localhost/DeCode",
+        "fb_url":"https://facebook.com/decode",
+        "tw_url":"https://twitter.com/decode",
+        "git_url":"https://github.com/decode"
+    }
+}
