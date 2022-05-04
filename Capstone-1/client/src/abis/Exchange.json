@@ -1,0 +1,78 @@
+{
+  "contractName": "Exchange",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/Exchange.sol\":\"Exchange\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/Exchange.sol\":{\"keccak256\":\"0x749489cf7494f79978f0d61bb7749d22a39098473800ee93b0e8a41006640a40\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9c3a14a032ef213e27ccd72f08819af9153e4c1574a5a78ed5297b008c3ed1be\",\"dweb:/ipfs/QmXmzXRdKKFKHp75fmavVW4Ud12krFA2nZec1kQS4ywJ8r\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212208faa73628a744b4b123c24d2a7c9ac90a757b16e3c911f344f177ab36a418e9664736f6c634300080d0033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212208faa73628a744b4b123c24d2a7c9ac90a757b16e3c911f344f177ab36a418e9664736f6c634300080d0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "286:27:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "286:27:0:-:0;;;;;",
+  "source": "// TODO:\r\n//[ ] Set the fee\r\n//[ ] Deposit Ether\r\n//[ ] Withdraw Ether\r\n//[ ] Deposit Tokens\r\n//[ ] Withdraw Tokens\r\n//[ ] Check Balances\r\n//[ ] Make Order\r\n//[ ] Cancel Order\r\n//[ ] Fill Order\r\n//[ ] Charge Fees\r\n\r\n// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.21 <8.10.0;\r\n\r\ncontract Exchange{\r\n    \r\n}",
+  "sourcePath": "D:\\anish CS works\\Projects\\Capstone-1\\client\\src\\contracts\\Exchange.sol",
+  "ast": {
+    "absolutePath": "project:/src/contracts/Exchange.sol",
+    "exportedSymbols": {
+      "Exchange": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "8.10",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "249:33:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Exchange",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Exchange",
+        "nameLocation": "295:8:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "286:27:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "249:64:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.13+commit.abaa5c0e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-05-04T01:15:11.724Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
