@@ -8749,10 +8749,10 @@
   dependencies:
     "mimic-fn" "^1.0.0"
 
-"openzeppelin-solidity@^4.5.0":
-  "integrity" "sha512-eWbLfEeyrL6MhCnFV+rY+BbB1j/YkY71HP40MvXqN7vO0amUsmHZ4NhtgYaOVSQooEtOl8f8Za3gkfS2KnHYBA=="
-  "resolved" "https://registry.npmjs.org/openzeppelin-solidity/-/openzeppelin-solidity-4.5.0.tgz"
-  "version" "4.5.0"
+"openzeppelin-solidity@^4.6.0":
+  "integrity" "sha512-Os4FUzc5V+4U2lpFyJA0kWh5fy3AZhYgS8CmB3Db4c4NGd3SsjFzuvWjBybn7NA4KZG7Gf6Lb7BdS8Cxb8Adtw=="
+  "resolved" "https://registry.npmjs.org/openzeppelin-solidity/-/openzeppelin-solidity-4.6.0.tgz"
+  "version" "4.6.0"
 
 "opn@^5.1.0", "opn@5.4.0":
   "integrity" "sha512-YF9MNdVy/0qvJvDtunAOzFw9iasOQHpVthTCvGzxt61Il64AYSGdK+rYwld7NAfk9qJ7dt+hymBNSc9LNYS+Sw=="
